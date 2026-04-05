@@ -27,15 +27,15 @@ Express.js - For building APIs quickly.
 
 ## API Endpoints
 ### Users
-- `POST /users` → Create user
-- `GET /users` → Get all users
-- `PUT /users/:id` → Update role/status
+- `POST /api/users` → Create user
+- `GET /api/users` → Get all users
+- `PUT /api/users/:id` → Update role/status
 
 ### Records
-- `POST /records` → Create record (Admin only)
-- `GET /records` → Get records (with filters + pagination)
-- `PUT /records/:id` → Update record (Admin only)
-- `DELETE /records/:id` → Delete record (Admin only)
+- `POST /api/records` → Create record (Admin only)
+- `GET /api/records` → Get records (with filters + pagination)
+- `PUT /api/records/:id` → Update record (Admin only)
+- `DELETE /api/records/:id` → Delete record (Admin only)
 
 #### Filters:
 - `type`
@@ -44,7 +44,7 @@ Express.js - For building APIs quickly.
 - `page`, `limit`
 
 ### Summary
-- `GET /summary` → Dashboard data (Admin, Analyst)
+- `GET /api/summary` → Dashboard data (Admin, Analyst)
 Returns:
 - Total income
 - Total expense

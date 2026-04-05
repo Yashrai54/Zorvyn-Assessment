@@ -83,3 +83,11 @@ MONGO_URI=Your_mongodb_uri
 ```bash
 nodemon server.js
 ```
+
+## Assumptions
+- Authentication is mocked using headers
+- Categories are flexible and not restricted
+
+## Improvements
+- JWT-based authentication
+- Better validation using libraries ( express-validator)

@@ -1,0 +1,126 @@
+{
+  "info": {
+    "_postman_id": "fc71a4e4-8a03-40a9-bfaa-b8f809bcd020",
+    "name": "Zorvyn Assessment",
+    "description": "```\nAuthentication:Pass user ID in headers for every request:user-id: <user_id>This simulates authentication.Roles:- viewer → read only- analyst → read + summary- admin → full access\n\n ```",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33187827"
+  },
+  "item": [
+    {
+      "name": "Users",
+      "item": [
+        {
+          "name": "createUser",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "createUser",
+              "originalRequest": {
+                "method": "GET",
+                "header": []
+              },
+              "_postman_previewlanguage": null,
+              "header": null,
+              "cookie": [],
+              "body": null
+            }
+          ]
+        },
+        {
+          "name": "GetAllUsers",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "UpdateRoleOrStatus",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Records",
+      "item": [
+        {
+          "name": "CreateRecord",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "CreateRecord",
+              "originalRequest": {
+                "method": "GET",
+                "header": []
+              },
+              "_postman_previewlanguage": null,
+              "header": null,
+              "cookie": [],
+              "body": null
+            }
+          ]
+        },
+        {
+          "name": "GetRecords",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "GetRecords",
+              "originalRequest": {
+                "method": "GET",
+                "header": []
+              },
+              "_postman_previewlanguage": null,
+              "header": null,
+              "cookie": [],
+              "body": null
+            }
+          ]
+        },
+        {
+          "name": "UpdateRecords",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "DeleteRecords",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Summary",
+      "item": [
+        {
+          "name": "GetSummary",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
